@@ -1,20 +1,26 @@
 /*START critical css*/
 @import './common/var';
-// @import './functions';
 @import './common/nullstyle';
 @import './common/fonts';
 @import './common/general';
 @import './common/slick';
-@import './common/fancybox.min';
+// @import './common/fancybox.min';
 @import './common/header';
 @import './common/footer';
 /*END critical css*/
 
 //Modules
-@import './modules/popup';
+// @import './modules/popup';
 @import './modules/title-section';
 @import './modules/btn';
-@import './modules/inputs';
+// @import './modules/inputs';
 
 //Front
-@import './pages/front/hero';
+@import './pages/training-center/hero';
+@import './pages/training-center/why-us';
+@import './pages/training-center/training-areas';
+@import './pages/training-center/trigger-consultation';
+@import './pages/training-center/upcoming-courses';
+@import './pages/training-center/steps';
+@import './pages/training-center/benefits';
+@import './pages/training-center/areas';

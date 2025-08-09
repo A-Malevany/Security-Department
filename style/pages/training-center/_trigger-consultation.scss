@@ -1,0 +1,72 @@
+.trigger-consultation{
+	background: $blue;
+	.container{
+		@media (max-width: 600px){
+			padding: 0 20px;
+		}
+	}
+	&__inner{
+		padding: 20px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 40px;
+		@media (max-width: 800px){
+			gap: 20px;
+		}
+		@media (max-width: 600px){
+			flex-wrap: wrap;
+		}
+	}
+	img{
+		max-width: 57px;
+		flex-shrink: 0;
+		@media (max-width: 800px){
+			width: 38px;
+		}
+	}
+	&__title{
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 1;
+		color: $white;
+		margin-right: auto;
+		@media (max-width: 1112px){
+			font-size: 24px;
+		}
+		@media (max-width: 800px){
+			font-size: 18px;
+		}
+		@media (max-width: 600px){
+			max-width: calc(100% - 38px - 20px);
+			br{
+				display: none;
+			}
+		}
+		@media (max-width: 400px){
+			font-size: 16px;
+		}
+	}
+	&__btn{
+		background: $orange-1;
+		border-radius: 100px;
+		padding: 14px 32px;
+		border: 1px solid $orange-1;
+		//Text
+		font-weight: 600;
+		text-align: center;
+		color: $white;
+		//Animate
+		transition: .3s ease;
+		@media (max-width: 600px){
+			width: 100%;
+		}
+		@media (any-hover: hover){
+			&:hover{
+				background: transparent;
+				color: $orange-2;
+				border-color: $orange-2;
+			}
+		}
+	}
+}

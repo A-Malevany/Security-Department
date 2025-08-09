@@ -1,0 +1,52 @@
+.training-areas{
+	.title-section{
+		@media (max-width: 600px){
+			text-align: center;
+		}
+	}
+	&__items{
+		display: grid;
+		grid-template-columns: repeat(3, minmax(auto, 1fr));
+		gap: 20px;
+		@media (max-width: 1280px){
+			grid-template-columns: repeat(2, minmax(auto, 1fr));
+		}
+		@media (max-width: 800px){
+			gap: 10px;
+		}
+		@media (max-width: 700px){
+			grid-template-columns: repeat(1, minmax(auto, 1fr));
+		}
+	}
+	&__item{
+		border-radius: 20px;
+		padding: 20px;
+		background: $white;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+		@media (max-width: 800px){
+			padding: 10px;
+			gap: 10px;
+		}
+		&-title{
+			font-weight: 600;
+			font-size: 20px;
+			@media (max-width: 800px){
+				font-size: 18px;
+			}
+			@media (max-width: 400px){
+				font-size: 16px;
+			}
+		}
+		&-icon{
+			width: 88px;
+			flex-shrink: 0;
+			aspect-ratio: 4/4;
+			@media (max-width: 800px){
+				width: 48px;
+			}
+		}
+	}
+}

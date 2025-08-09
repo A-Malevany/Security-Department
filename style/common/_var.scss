@@ -1,13 +1,20 @@
-//VW
-$mobile: 375px;
-$tablet: 768px;
-$desktop: 1920px;
-
 //Colors
-$primary: #4A9ED8;
-$dark: #000;
+$blue: #11408D;
+$black: #02070F;
 $white: #fff;
+$orange-1: #F0831F;
+$orange-2: #F49A46;
+$grey: #35393F;
 
-//Breackpoimts
-$tab: 768px;
-$desk: 1024px;
+.section-padding{
+	padding: 120px 0;
+	&.pt-0{
+		padding-top: 0;
+	}
+	&.pb-0{
+		padding-bottom: 0;
+	}
+	@media (max-width: 600px){
+		padding: 80px 0;
+	}
+}
