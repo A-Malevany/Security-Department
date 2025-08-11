@@ -4,16 +4,15 @@
 @import './common/fonts';
 @import './common/general';
 @import './common/slick';
-// @import './common/fancybox.min';
+@import './common/fancybox.min';
 @import './common/header';
 @import './common/footer';
 /*END critical css*/
 
 //Modules
-// @import './modules/popup';
 @import './modules/title-section';
 @import './modules/btn';
-// @import './modules/inputs';
+@import './modules/slider-nav';
 
 //Front
 @import './pages/training-center/hero';
@@ -24,3 +23,10 @@
 @import './pages/training-center/steps';
 @import './pages/training-center/benefits';
 @import './pages/training-center/areas';
+@import './pages/training-center/training-formats';
+@import './pages/training-center/documents';
+@import './pages/training-center/payment-options';
+@import './pages/training-center/reviews';
+@import './pages/training-center/licenses';
+@import './pages/training-center/partners';
+@import './pages/training-center/consultation-form';

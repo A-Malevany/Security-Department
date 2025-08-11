@@ -49,6 +49,13 @@
 		border-radius: 20px;
 		overflow: hidden;
 		background: $white;
+		@media (any-hover: hover){
+			&:hover{
+				.upcoming-courses__item-title{
+					color: $blue;
+				}
+			}
+		}
 		&-img{
 			overflow: hidden;
 			img{
@@ -88,6 +95,7 @@
 			font-size: 18px;
 			line-height: 1;
 			margin-bottom: 10px;
+			transition: .3s ease;
 		}
 		&-dscr{
 			line-height: 1.3;

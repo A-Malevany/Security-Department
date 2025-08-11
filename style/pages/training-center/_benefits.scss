@@ -1,9 +1,13 @@
 .benefits{
+	overflow: hidden;
 	@media (max-width: 1000px){
 		margin: 0 -20px;
 	}
 	@media (max-width: 600px){
-		margin: 0 -10px;
+		margin: 0;
+		.container{
+			padding: 0;
+		}
 	}
 	&__inner{
 		background: $white;
